@@ -22,6 +22,8 @@
 		1892006B188EDB3800A50BD9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892004F188EDB3800A50BD9 /* CoreData.framework */; };
 		18920073188EDB3800A50BD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18920071188EDB3800A50BD9 /* InfoPlist.strings */; };
 		18920075188EDB3800A50BD9 /* NotsBeforeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18920074188EDB3800A50BD9 /* NotsBeforeTests.m */; };
+		1892007F188EDBE700A50BD9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1892007E188EDBE700A50BD9 /* MainStoryboard.storyboard */; };
+		18920082188EDCB100A50BD9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18920081188EDCB100A50BD9 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		18920070188EDB3800A50BD9 /* NotsBeforeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotsBeforeTests-Info.plist"; sourceTree = "<group>"; };
 		18920072188EDB3800A50BD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18920074188EDB3800A50BD9 /* NotsBeforeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotsBeforeTests.m; sourceTree = "<group>"; };
+		1892007E188EDBE700A50BD9 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		18920080188EDCB100A50BD9 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		18920081188EDCB100A50BD9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 			children = (
 				1892005A188EDB3800A50BD9 /* AppDelegate.h */,
 				1892005B188EDB3800A50BD9 /* AppDelegate.m */,
+				1892007E188EDBE700A50BD9 /* MainStoryboard.storyboard */,
+				18920080188EDCB100A50BD9 /* MapViewController.h */,
+				18920081188EDCB100A50BD9 /* MapViewController.m */,
 				18920060188EDB3800A50BD9 /* Images.xcassets */,
 				1892005D188EDB3800A50BD9 /* NotsBefore.xcdatamodeld */,
 				18920052188EDB3800A50BD9 /* Supporting Files */,
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1892007F188EDBE700A50BD9 /* MainStoryboard.storyboard in Resources */,
 				18920056188EDB3800A50BD9 /* InfoPlist.strings in Resources */,
 				18920061188EDB3800A50BD9 /* Images.xcassets in Resources */,
 			);
@@ -251,6 +260,7 @@
 				1892005F188EDB3800A50BD9 /* NotsBefore.xcdatamodeld in Sources */,
 				1892005C188EDB3800A50BD9 /* AppDelegate.m in Sources */,
 				18920058188EDB3800A50BD9 /* main.m in Sources */,
+				18920082188EDCB100A50BD9 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
