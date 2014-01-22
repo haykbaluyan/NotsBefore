@@ -24,6 +24,8 @@
 		18920075188EDB3800A50BD9 /* NotsBeforeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18920074188EDB3800A50BD9 /* NotsBeforeTests.m */; };
 		1892007F188EDBE700A50BD9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1892007E188EDBE700A50BD9 /* MainStoryboard.storyboard */; };
 		18920082188EDCB100A50BD9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18920081188EDCB100A50BD9 /* MapViewController.m */; };
+		18920087188EE6F900A50BD9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18920086188EE6F900A50BD9 /* CoreLocation.framework */; };
+		18920089188EEF2300A50BD9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18920088188EEF2300A50BD9 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		1892007E188EDBE700A50BD9 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		18920080188EDCB100A50BD9 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		18920081188EDCB100A50BD9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		18920086188EE6F900A50BD9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18920088188EEF2300A50BD9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18920089188EEF2300A50BD9 /* MapKit.framework in Frameworks */,
+				18920087188EE6F900A50BD9 /* CoreLocation.framework in Frameworks */,
 				1892004C188EDB3800A50BD9 /* CoreGraphics.framework in Frameworks */,
 				18920050188EDB3800A50BD9 /* CoreData.framework in Frameworks */,
 				1892004E188EDB3800A50BD9 /* UIKit.framework in Frameworks */,
@@ -108,6 +114,8 @@
 		18920048188EDB3800A50BD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18920088188EEF2300A50BD9 /* MapKit.framework */,
+				18920086188EE6F900A50BD9 /* CoreLocation.framework */,
 				18920049188EDB3800A50BD9 /* Foundation.framework */,
 				1892004B188EDB3800A50BD9 /* CoreGraphics.framework */,
 				1892004D188EDB3800A50BD9 /* UIKit.framework */,
@@ -461,6 +469,7 @@
 				1892007A188EDB3800A50BD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1892007B188EDB3800A50BD9 /* Build configuration list for PBXNativeTarget "NotsBeforeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				1892007D188EDB3800A50BD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

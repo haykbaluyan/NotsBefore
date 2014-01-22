@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+@interface MapViewController : UIViewController <CLLocationManagerDelegate,MKMapViewDelegate>
+{
+    CLLocationManager* locationManager;
+    
+    CLGeocoder *geocoder;
+    CLPlacemark *placemark;
+}
+@property (strong, nonatomic) IBOutlet CLLocationManager* locationManager;
+@property (weak, nonatomic) IBOutlet UILabel *latitudeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *longitudeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+@property (nonatomic, strong) IBOutlet MKMapView *mapView;
 
-@interface MapViewController : UIViewController
+@property (nonatomic,strong) IBOutlet UILabel* hintToTap;
+- (IBAction)getCurrentLocation:(id)sender;
 
 @end
